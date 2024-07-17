@@ -9,13 +9,13 @@ The progress of this lab is outlined in the Description and displayed in the Scr
 - Set up a virtual machine for testing a keylogger program run by Windows Visual Studio 2022.
 - Whitelisted keylogger file in Windows Defender to allow for testing and execution.
 - Configured a C# keylogger template to meet custom parameters.
--	Linked a test Gmail account to the C# using a uniquely generated app password for third party connections.
+-	Linked a test Gmail account to the C# using a uniquely generated app password for third-party connections.
 -	Set keylogger to record 150 bytes before sending the log to the test Gmail address.
--	Modified the Output Type of the script so the log screen is not visible as the keylogger is running.
--	Demonstrated the keylogger harvesting login credentials to a banking website and having those logs sent to the test email address.
--	Located executable file for this project to show that it could theoretically be shared with others or installed on other machines.
+-	Modified the Output Type of the script so the keylogger will run discretely in the background.
+-	Demonstrated the keylogger harvesting login credentials to a banking website and sending those logs to the test email address.
+-	Located the executable file for this project to show that it could theoretically be shared with others or installed on other machines.
 -	Created a task in Task Scheduler for the keylogger to run upon machine startup.
--	Removed keylogger files from Defender whitelist, then tried running executable file to simulate real time protection from such threats.
+-	Removed keylogger files from Defender whitelist, then tried running executable file to simulate real-time protection from such threats.
 
 ## Skills Learned
 - Keylogger creation
@@ -50,11 +50,11 @@ Figure 4: Logs sent in the body and as an attachment to the email.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/Keylogger%20Demo%204.%20Logs%20Sent%20In%20Body%20of%20Email%20And%20As%20Attacment.PNG"/> <br />
 <br />
 <p align="center">
-Figure 5: By modifying the Output Type, the keylogger will run in the background without being seen.
+Figure 5: By modifying the Output Type, the keylogger will run discretely in the background.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/Keylogger%20Demo%204.%20Configured%20OutPut%20Type.PNG"/> <br />
 <br />
 <p align="center">
-Figure 6: Example of the keylogger gathering login credentials to a banking website.
+Figure 6: Example of the keylogger harvesting login credentials on a banking website.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/Keylogger%20Demo%206.%20Sample%20Login%20Banking%20Capture.PNG"/> <br />
 <br />
 <p align="center">
@@ -74,38 +74,10 @@ Figure 10: Task Scheduler view showing the trigger and the action of the keylogg
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/Keylogger%20Demo%2010.%20Task%20Scheduler%20Trigger%20and%20Action.PNG"/> <br />
 <br />
 <p align="center">
-Figure 11: Account Lockout Policy setting configured to meet organizational requirements.
-<img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2020.%20Configured%20Account%20Lockout%20Attempts.PNG"/> <br />
+Figure 11: Defender blocking the keylogger from running.
+<img src="https://github.com/bryanotoole/Project-Pictures/blob/main/Keylogger%20Demo%2011.%20Defender%20Blocking%20Keylogger%20Execution.PNG"/> <br />
 <br />
 <p align="center">
-Figure 12: New user Humbleton Fouse created within AD.
-<img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2011.%20New%20User%20Humbleton%20Fouse.PNG"/> <br />
-<br />
-<p align="center">
-Figure 13: Humbleton Fouse next logon password change setting enabled.
-<img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2012.%20Humbleton%20Fouse%20Next%20Logon%20Password%20Change%20Setting%20Enabled.PNG"/> <br />
-<br />
-<p align="center">
-Figure 14: Humbleton Fouse password change prompt when attempting to login to CLIENT1.
-<img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2014.%20Humbleton%20Fouse%20Password%20Change%20Prompt.PNG"/> <br />
-<br />
-<p align="center">
-Figure 15: Successful password change for Humbleton Fouse while attempting to login to CLIENT1.
-<img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2015.%20Successful%20Password%20Change%20For%20Humbleton%20Fouse.PNG"/> <br />
-<br />
-<p align="center">
-Figure 16: Successful logon for Humbleton Fouse into CLIENT1.
-<img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2016.%20Humbleton%20Fouse%20Successful%20Signon%20After%20Password%20Change.PNG"/> <br />
-<br />
-<p align="center">
-Figure 17: Leonel Cavalier account lockout after too many failed login attempts.
-<img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2022.%20Leonel%20Cavalier%20Account%20Lockout.PNG"/> <br />
-<br />
-<p align="center">
-Figure 18: Leonel Cavalier password reset and account unlocked in AD.
-<img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2023.%20Leonel%20Cavalier%20Password%20Reset%20%26%20Account%20Unlocked%20AD%20Settings.PNG"/> <br />
-<br />
-<p align="center">
-Figure 19: Leonel Cavalier successfully logging into CLIENT1 after password reset and account unlock.
-<img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2024.%20Leonel%20Cavalier%20Successful%20Logon%20After%20Account%20Unlock.PNG"/> <br />
+Figure 12: Keylogger quarantined by Defender.
+<img src="https://github.com/bryanotoole/Project-Pictures/blob/main/Keylogger%20Demo%2012.%20Defender%20Blocked%20Keylogger%20Executeable.PNG"/> <br />
 <br />
