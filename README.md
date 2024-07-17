@@ -10,6 +10,7 @@ The purpose of this lab is to demonstrate a foundational understanding of keylog
 -	Linked a test Gmail account to the C# using a uniquely generated app password.
 -	Set keylogger to record 150 bytes before sending the log to the test Gmail address.
 -	Modified the Output Type of the script so the log screen is not visible as the keylogger is running.
+-	Demonstrated the keylogger harvesting login credentials to a banking website and having those logs sent to the test email address.
 -	Located executable file for this project to show that it could theoretically be shared with others or installed on other machines.
 -	Created a task in Task Scheduler for the keylogger to run upon machine startup.
 -	Removed keylogger files from Defender whitelist, then tried running executable file to simulate real time protection from such threats.
