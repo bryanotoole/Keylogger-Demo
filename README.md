@@ -20,7 +20,7 @@ The progress of this lab is outlined in the Description and displayed in the Scr
 ## Skills Learned
 - Spyware Functionality
 - Windows Task Schedueler setup
-- C# syntax
+- C# Scripting
 - Third party app setup with Gmail
 
 ## Tools & Technology Used
