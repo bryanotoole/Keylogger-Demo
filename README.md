@@ -18,7 +18,7 @@ The progress of this lab is outlined in the Description and displayed in the Scr
 -	Removed keylogger files from Defender whitelist, then tried running executable file to simulate real-time protection from such threats.
 
 ## Skills Learned
-- Spyware Creation & Execution
+- Spyware Functionality
 - Windows Task Schedueler setup
 - C# syntax
 - Third party app setup with Gmail
